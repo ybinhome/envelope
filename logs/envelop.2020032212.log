@@ -1106,3 +1106,195 @@
 [38;5;37m[2020-03-22.22:09:56.666128 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:22:[0m POST: /v1/envelope/receive -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).receiveHandler-fm() and 2 more
 [38;5;37m[2020-03-22.22:10:36.665987 ][0m [32m INFO[0m notify: terminated
 [38;5;37m[2020-03-22.22:10:36.666085 ][0m [31mERROR[0m http: Server closed
+[38;5;37m[2020-03-22.23:41:22.701110 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.23:41:22.702929 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.23:41:22.702971 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.23:41:22.703015 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.23:41:22.703036 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.23:41:22.703202 ][0m [34mDEBUG[0m Initializing: type=%s*base.GoRPCStarter
+[38;5;37m[2020-03-22.23:41:22.703225 ][0m [34mDEBUG[0m Initializing: type=%s*gorpc.GoRpcApiStarter
+[38;5;37m[2020-03-22.23:41:22.703244 ][0m [32m INFO[0m goRPC Register: *gorpc.EnvelopeRpc
+[38;5;37m[2020-03-22.23:41:22.703302 ][0m [34mDEBUG[0m Initializing: type=%s*jobs.RefundExpiredJobStarter
+[38;5;37m[2020-03-22.23:41:22.703502 ][0m [34mDEBUG[0m Initializing: type=%s*infra.WebApiStarter
+[38;5;37m[2020-03-22.23:41:22.703524 ][0m [34mDEBUG[0m Initializing: type=%s*base.EurekaStarter
+[38;5;37m[2020-03-22.23:41:22.704006 ][0m [34mDEBUG[0m &{Leader:http://127.0.0.1:8761/eureka Machines:[http://127.0.0.1:8761/eureka]}
+[38;5;37m[2020-03-22.23:41:22.704050 ][0m [34mDEBUG[0m Initializing: type=%s*base.HookStarter
+[38;5;37m[2020-03-22.23:41:22.704128 ][0m [34mDEBUG[0m Initializing: type=%s*base.IrisServerStarter
+[38;5;37m[2020-03-22.23:41:22.704201 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.23:41:22.704284 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.23:41:22.704313 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.23:41:22.716959 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.23:41:22.717203 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.23:41:22.717303 ][0m [32m INFO[0m tcp port listened for rpc:8082
+[38;5;37m[2020-03-22.23:41:22.717342 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.PropsStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717367 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.DbxDatabaseStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717387 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.ValidatorStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717406 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.GoRPCStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717426 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *gorpc.GoRpcApiStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717444 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *jobs.RefundExpiredJobStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717464 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *infra.WebApiStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717482 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.EurekaStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717500 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.HookStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717519 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.IrisServerStarter.Stop()
+[38;5;37m[2020-03-22.23:41:22.717541 ][0m [32m INFO[0m[36m ./apis/web/account.go:26:[0m POST: /v1/account/create -> github.com/ybinhome/envelope/apis/web.createHandler() and 2 more
+[38;5;37m[2020-03-22.23:41:22.717561 ][0m [32m INFO[0m[36m ./apis/web/account.go:28:[0m POST: /v1/account/transfer -> github.com/ybinhome/envelope/apis/web.transferHandler() and 2 more
+[38;5;37m[2020-03-22.23:41:22.717581 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:21:[0m POST: /v1/envelope/sendout -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).sendOutHandler-fm() and 2 more
+[38;5;37m[2020-03-22.23:41:22.717602 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:22:[0m POST: /v1/envelope/receive -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).receiveHandler-fm() and 2 more
+[38;5;37m[2020-03-22.23:41:22.717622 ][0m [32m INFO[0m[36m ./infra/base/eureka.go:27:[0m GET: /info -> github.com/ybinhome/envelope/infra/base.(*EurekaStarter).Setup.func1() and 2 more
+[38;5;37m[2020-03-22.23:41:22.717641 ][0m [32m INFO[0m[36m ./infra/base/eureka.go:32:[0m GET: /health -> github.com/ybinhome/envelope/infra/base.(*EurekaStarter).Setup.func2() and 2 more
+[38;5;37m[2020-03-22.23:41:32.704390 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:41:32.704583 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:41:32.704631 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:41:32.704665 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:41:32.706553 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:41:32.706733 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:41:32.707265 ][0m [34mDEBUG[0m post http://127.0.0.1:8761/eurekaapps/envelope, [{"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584891682703,"lastRenewalTimestamp":1584891682703},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}}]
+[38;5;37m[2020-03-22.23:41:32.707305 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope
+[38;5;37m[2020-03-22.23:41:32.707329 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope | method POST 
+[38;5;37m[2020-03-22.23:41:32.709475 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope
+[38;5;37m[2020-03-22.23:41:32.709528 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope 204 
+[38;5;37m[2020-03-22.23:41:32.709560 ][0m [32m INFO[0m RegisterInstance  [32mbody[0m={"instance":{"hostName":"192.168.0.115","homePageUrl":"http://192.168.0.115:8080/","statusPageUrl":"http://192.168.0.115:8080/info","healthCheckUrl":"http://192.168.0.115:8080/health","app":"envelope","ipAddr":"192.168.0.115","vipAddress":"envelope","status":"STARTING","port":{"$":8080,"@enabled":true},"dataCenterInfo":{"name":"MyOwn","@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo"},"leaseInfo":{"evictionDurationInSecs":30,"renewalIntervalInSecs":10,"durationInSecs":90,"registrationTimestamp":1584891682703,"lastRenewalTimestamp":1584891682703},"metadata":{"instanceId":"192.168.0.115:envelope:8080"},"instanceId":"192.168.0.115:envelope:8080","appName":"envelope"}} [32mpath[0m=apps/envelope [32mstatus[0m=204
+[38;5;37m[2020-03-22.23:41:32.709595 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080/status?value=UP, []
+[38;5;37m[2020-03-22.23:41:32.709621 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-22.23:41:32.709644 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP | method PUT 
+[38;5;37m[2020-03-22.23:41:32.710363 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP
+[38;5;37m[2020-03-22.23:41:32.710410 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080/status?value=UP 200 
+[38;5;37m[2020-03-22.23:41:32.710440 ][0m [32m INFO[0m UpdateStatus  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080/status?value=UP [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:41:42.704815 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:41:42.704998 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:41:42.705071 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:41:42.705137 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:41:42.706084 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:41:42.706388 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:41:42.706692 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:41:42.706738 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:41:42.706770 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:41:42.707417 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:41:42.707480 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:41:42.707540 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:41:52.704998 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:41:52.705171 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:41:52.705242 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:41:52.705297 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:41:52.706261 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:41:52.706526 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:41:52.706981 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:41:52.707042 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:41:52.707084 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:41:52.707725 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:41:52.707789 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:41:52.707832 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:02.708491 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:02.708654 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:02.708715 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:02.708802 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:02.710063 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:02.710343 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:02.711614 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:02.711872 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:02.711944 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:02.712701 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:02.712794 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:02.712863 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:03.417778 ][0m [32m INFO[0m | 2020-03-22.23:42:03.417759 | 134.575µs | 200 | 192.168.0.115 | GET | /info | %!s(<nil>) | %!s(<nil>) |
+[38;5;37m[2020-03-22.23:42:11.795996 ][0m [32m INFO[0m | 2020-03-22.23:42:11.795979 | 47.083µs | 200 | 192.168.0.115 | GET | /health | %!s(<nil>) | %!s(<nil>) |
+[38;5;37m[2020-03-22.23:42:12.705993 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:12.706089 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:12.706127 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:12.706156 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:12.706737 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:12.706854 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:12.707177 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:12.707209 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:12.707232 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:12.707635 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:12.707674 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:12.707698 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:22.708882 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:22.708989 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:22.709031 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:22.709070 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:22.708889 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
+[38;5;37m[2020-03-22.23:42:22.709796 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:22.710080 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:22.710692 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:22.710748 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:22.710789 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:22.711357 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:22.711411 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:22.711441 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:22.716433 ][0m [32m INFO[0m 已经有节点在运行该任务了
+[38;5;37m[2020-03-22.23:42:32.707560 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:32.707727 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:32.707799 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:32.707856 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:32.708846 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:32.709117 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:32.709863 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:32.709929 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:32.709969 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:32.710645 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:32.710707 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:32.710748 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:42.708258 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:42.708360 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:42.708394 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:42.708423 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:42.709112 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:42.709340 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:42.709812 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:42.709878 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:42.709937 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:42.710654 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:42.710711 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:42.710787 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:42:52.707886 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:42:52.708093 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:42:52.708163 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:42:52.708217 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:42:52.709201 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:42:52.709523 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:42:52.710019 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:42:52.710064 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:52.710125 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:42:52.710617 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:42:52.710662 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:42:52.710690 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:43:02.706533 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:43:02.706647 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:43:02.706687 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:43:02.706722 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:43:02.707385 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:43:02.707573 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:43:02.708133 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:43:02.708210 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:02.708250 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:43:02.708836 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:02.708886 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:43:02.708916 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:43:12.705196 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:43:12.705357 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:43:12.705455 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:43:12.705507 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:43:12.706536 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:43:12.706791 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:43:12.707272 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:43:12.707313 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:12.707346 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:43:12.707871 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:12.707938 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:43:12.707982 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:43:22.706381 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
+[38;5;37m[2020-03-22.23:43:22.708844 ][0m [34mDEBUG[0m get http://127.0.0.1:8761/eurekaapps
+[38;5;37m[2020-03-22.23:43:22.709125 ][0m [34mDEBUG[0m get apps [http://127.0.0.1:8761/eureka]
+[38;5;37m[2020-03-22.23:43:22.709284 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps
+[38;5;37m[2020-03-22.23:43:22.709346 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps | method GET 
+[38;5;37m[2020-03-22.23:43:22.710403 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps
+[38;5;37m[2020-03-22.23:43:22.710718 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps 200 
+[38;5;37m[2020-03-22.23:43:22.711437 ][0m [34mDEBUG[0m put http://127.0.0.1:8761/eurekaapps/envelope/192.168.0.115:envelope:8080, []
+[38;5;37m[2020-03-22.23:43:22.711486 ][0m [34mDEBUG[0m Connecting to eureka: attempt 1 for apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:22.711517 ][0m [34mDEBUG[0m send.request.to http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 | method PUT 
+[38;5;37m[2020-03-22.23:43:22.712052 ][0m [34mDEBUG[0m recv.response.from http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080
+[38;5;37m[2020-03-22.23:43:22.712112 ][0m [34mDEBUG[0m recv.success http://127.0.0.1:8761/eureka/apps/envelope/192.168.0.115:envelope:8080 200 
+[38;5;37m[2020-03-22.23:43:22.712149 ][0m [32m INFO[0m SendHeartbeat  [32mpath[0m=apps/envelope/192.168.0.115:envelope:8080 [32mstatus[0m=200
+[38;5;37m[2020-03-22.23:43:22.717093 ][0m [32m INFO[0m 已经有节点在运行该任务了
