@@ -86,6 +86,11 @@ func (r *starterRegister) AllStarters() []Starter {
 	return starters
 }
 
+//获取所有注册的starter
+func GetStarters() []Starter {
+	return StarterRegister.AllStarters()
+}
+
 var StarterRegister *starterRegister = new(starterRegister)
 
 func Register(s Starter) {

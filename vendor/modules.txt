@@ -16,7 +16,7 @@ github.com/eknkc/amber
 github.com/eknkc/amber/parser
 # github.com/fatih/structs v1.1.0
 github.com/fatih/structs
-# github.com/go-ini/ini v1.54.0
+# github.com/go-ini/ini v1.42.0
 github.com/go-ini/ini
 # github.com/go-playground/locales v0.13.0
 github.com/go-playground/locales
@@ -24,8 +24,13 @@ github.com/go-playground/locales/currency
 github.com/go-playground/locales/zh
 # github.com/go-playground/universal-translator v0.17.0
 github.com/go-playground/universal-translator
+# github.com/go-redsync/redsync v1.3.1
+github.com/go-redsync/redsync
 # github.com/go-sql-driver/mysql v1.4.1
 github.com/go-sql-driver/mysql
+# github.com/gomodule/redigo v2.0.0+incompatible
+github.com/gomodule/redigo/internal
+github.com/gomodule/redigo/redis
 # github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1
 github.com/gopherjs/gopherjs/js
 # github.com/iris-contrib/blackfriday v2.0.0+incompatible
@@ -76,7 +81,7 @@ github.com/kataras/sitemap
 # github.com/klauspost/compress v1.9.7
 github.com/klauspost/compress/flate
 github.com/klauspost/compress/gzip
-# github.com/konsorten/go-windows-terminal-sequences v1.0.2
+# github.com/konsorten/go-windows-terminal-sequences v1.0.1
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/leodido/go-urn v1.2.0
 github.com/leodido/go-urn
@@ -93,11 +98,11 @@ github.com/mattn/go-isatty
 github.com/mgutz/ansi
 # github.com/microcosm-cc/bluemonday v1.0.2
 github.com/microcosm-cc/bluemonday
-# github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421
+# github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
 github.com/modern-go/concurrent
-# github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742
+# github.com/modern-go/reflect2 v1.0.1
 github.com/modern-go/reflect2
-# github.com/pkg/errors v0.9.1
+# github.com/pkg/errors v0.8.1
 github.com/pkg/errors
 # github.com/ryanuber/columnize v2.1.0+incompatible
 github.com/ryanuber/columnize
@@ -127,7 +132,7 @@ github.com/tietang/dbx/reflectx
 # github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 github.com/tietang/go-eureka-client/eureka
 github.com/tietang/go-eureka-client/eureka/config
-# github.com/tietang/go-utils v0.1.3
+# github.com/tietang/go-utils v0.0.0-20190308094824-9e17fa5e3788
 github.com/tietang/go-utils
 github.com/tietang/go-utils/errs
 # github.com/tietang/props v2.2.0+incompatible
@@ -135,13 +140,10 @@ github.com/tietang/props/ini
 github.com/tietang/props/kvs
 # github.com/valyala/bytebufferpool v1.0.0
 github.com/valyala/bytebufferpool
-# github.com/valyala/fasttemplate v1.1.0
+# github.com/valyala/fasttemplate v1.0.1
 github.com/valyala/fasttemplate
 # github.com/x-cray/logrus-prefixed-formatter v0.5.2
 github.com/x-cray/logrus-prefixed-formatter
-# github.com/ybinhome/envelope_infra v0.1.0
-github.com/ybinhome/envelope_infra
-github.com/ybinhome/envelope_infra/base
 # golang.org/x/crypto v0.0.0-20191227163750-53104e6ec876
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
@@ -151,7 +153,7 @@ golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/idna
 golang.org/x/net/publicsuffix
-# golang.org/x/sys v0.0.0-20200317113312-5766fd39f98d
+# golang.org/x/sys v0.0.0-20200223170610-d5e6a3e2c0ae
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 # golang.org/x/text v0.3.2
@@ -168,9 +170,9 @@ google.golang.org/appengine/cloudsql
 # gopkg.in/go-playground/validator.v9 v9.31.0
 gopkg.in/go-playground/validator.v9
 gopkg.in/go-playground/validator.v9/translations/zh
-# gopkg.in/ini.v1 v1.54.0
+# gopkg.in/ini.v1 v1.51.1
 gopkg.in/ini.v1
-# gopkg.in/yaml.v2 v2.2.8
+# gopkg.in/yaml.v2 v2.2.4
 gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.0-20191120175047-4206685974f2
 gopkg.in/yaml.v3

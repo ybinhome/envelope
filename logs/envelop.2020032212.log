@@ -1040,3 +1040,69 @@
 [38;5;37m[2020-03-22.21:12:13.092036 ][0m [32m INFO[0m 已经有节点在运行该任务了
 [38;5;37m[2020-03-22.21:13:13.084917 ][0m [32m INFO[0m 节点 192.168.0.115 正在执行过期红包退款任务
 [38;5;37m[2020-03-22.21:13:13.093540 ][0m [32m INFO[0m 已经有节点在运行该任务了
+[38;5;37m[2020-03-22.21:13:42.860132 ][0m [31mERROR[0m http: Server closed
+[38;5;37m[2020-03-22.22:08:53.849774 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.22:08:53.851843 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.22:08:53.851908 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.22:08:53.851951 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.22:08:53.851970 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.22:08:53.852605 ][0m [34mDEBUG[0m Initializing: type=%s*base.GoRPCStarter
+[38;5;37m[2020-03-22.22:08:53.852734 ][0m [34mDEBUG[0m Initializing: type=%s*gorpc.GoRpcApiStarter
+[38;5;37m[2020-03-22.22:08:53.852775 ][0m [32m INFO[0m goRPC Register: *gorpc.EnvelopeRpc
+[38;5;37m[2020-03-22.22:08:53.853055 ][0m [34mDEBUG[0m Initializing: type=%s*jobs.RefundExpiredJobStarter
+[38;5;37m[2020-03-22.22:08:53.853302 ][0m [34mDEBUG[0m Initializing: type=%s*infra.WebApiStarter
+[38;5;37m[2020-03-22.22:08:53.853327 ][0m [34mDEBUG[0m Initializing: type=%s*base.HookStarter
+[38;5;37m[2020-03-22.22:08:53.853391 ][0m [34mDEBUG[0m Initializing: type=%s*base.IrisServerStarter
+[38;5;37m[2020-03-22.22:08:53.853456 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.22:08:53.853531 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.22:08:53.853557 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.22:08:53.869347 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.22:08:53.869551 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.22:08:53.869645 ][0m [32m INFO[0m tcp port listened for rpc:8082
+[38;5;37m[2020-03-22.22:08:53.869683 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.PropsStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869708 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.DbxDatabaseStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869727 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.ValidatorStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869745 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.GoRPCStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869762 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *gorpc.GoRpcApiStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869783 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *jobs.RefundExpiredJobStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869803 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *infra.WebApiStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869820 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.HookStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869838 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.IrisServerStarter.Stop()
+[38;5;37m[2020-03-22.22:08:53.869860 ][0m [32m INFO[0m[36m ./apis/web/account.go:26:[0m POST: /v1/account/create -> github.com/ybinhome/envelope/apis/web.createHandler() and 2 more
+[38;5;37m[2020-03-22.22:08:53.869879 ][0m [32m INFO[0m[36m ./apis/web/account.go:28:[0m POST: /v1/account/transfer -> github.com/ybinhome/envelope/apis/web.transferHandler() and 2 more
+[38;5;37m[2020-03-22.22:08:53.869898 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:21:[0m POST: /v1/envelope/sendout -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).sendOutHandler-fm() and 2 more
+[38;5;37m[2020-03-22.22:08:53.869916 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:22:[0m POST: /v1/envelope/receive -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).receiveHandler-fm() and 2 more
+[38;5;37m[2020-03-22.22:09:38.783230 ][0m [31mERROR[0m http: Server closed
+[38;5;37m[2020-03-22.22:09:56.651559 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.22:09:56.652095 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.22:09:56.652123 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.22:09:56.652172 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.22:09:56.652200 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.22:09:56.652375 ][0m [34mDEBUG[0m Initializing: type=%s*base.GoRPCStarter
+[38;5;37m[2020-03-22.22:09:56.652401 ][0m [34mDEBUG[0m Initializing: type=%s*gorpc.GoRpcApiStarter
+[38;5;37m[2020-03-22.22:09:56.652425 ][0m [32m INFO[0m goRPC Register: *gorpc.EnvelopeRpc
+[38;5;37m[2020-03-22.22:09:56.652505 ][0m [34mDEBUG[0m Initializing: type=%s*jobs.RefundExpiredJobStarter
+[38;5;37m[2020-03-22.22:09:56.652789 ][0m [34mDEBUG[0m Initializing: type=%s*infra.WebApiStarter
+[38;5;37m[2020-03-22.22:09:56.652844 ][0m [34mDEBUG[0m Initializing: type=%s*base.HookStarter
+[38;5;37m[2020-03-22.22:09:56.652979 ][0m [34mDEBUG[0m Initializing: type=%s*base.IrisServerStarter
+[38;5;37m[2020-03-22.22:09:56.653098 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.22:09:56.653207 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.22:09:56.653270 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.22:09:56.664862 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.22:09:56.665603 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.22:09:56.665813 ][0m [32m INFO[0m tcp port listened for rpc:8082
+[38;5;37m[2020-03-22.22:09:56.665870 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.PropsStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.665899 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.DbxDatabaseStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.665921 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.ValidatorStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.665941 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.GoRPCStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.665960 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *gorpc.GoRpcApiStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.665979 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *jobs.RefundExpiredJobStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.666006 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *infra.WebApiStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.666040 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.HookStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.666056 ][0m [32m INFO[0m[36m  Register Notify Stop:[0m : *base.IrisServerStarter.Stop()
+[38;5;37m[2020-03-22.22:09:56.666077 ][0m [32m INFO[0m[36m ./apis/web/account.go:26:[0m POST: /v1/account/create -> github.com/ybinhome/envelope/apis/web.createHandler() and 2 more
+[38;5;37m[2020-03-22.22:09:56.666096 ][0m [32m INFO[0m[36m ./apis/web/account.go:28:[0m POST: /v1/account/transfer -> github.com/ybinhome/envelope/apis/web.transferHandler() and 2 more
+[38;5;37m[2020-03-22.22:09:56.666112 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:21:[0m POST: /v1/envelope/sendout -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).sendOutHandler-fm() and 2 more
+[38;5;37m[2020-03-22.22:09:56.666128 ][0m [32m INFO[0m[36m ./apis/web/envelop.go:22:[0m POST: /v1/envelope/receive -> github.com/ybinhome/envelope/apis/web.(*EnvelopeApi).receiveHandler-fm() and 2 more
+[38;5;37m[2020-03-22.22:10:36.665987 ][0m [32m INFO[0m notify: terminated
+[38;5;37m[2020-03-22.22:10:36.666085 ][0m [31mERROR[0m http: Server closed
