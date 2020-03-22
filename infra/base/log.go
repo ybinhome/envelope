@@ -46,9 +46,6 @@ func init() {
 	formatter.ForceColors = true
 	formatter.DisableColors = false
 
-	log.Info("测试日志条目")
-	log.Debug("测试日志条目")
-
 	// 4。 日志文件的滚动配置
 	logFileSettings()
 
@@ -63,7 +60,7 @@ func logFileSettings() {
 	// 日志文件最大保存时长
 	maxAge := time.Hour * 24
 	// 日志切割时间间隔
-	rotationTime := time.Hour * 1
+	rotationTime := time.Hour * 12
 	// 在文件系统上创建目录
 	os.MkdirAll(logPath, os.ModePerm)
 	// 联合完成的日志目录

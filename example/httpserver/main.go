@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/kataras/iris/v12"
 	"github.com/sirupsen/logrus"
 	"net/http"
@@ -12,7 +11,7 @@ func main() {
 	app := iris.Default()
 	app.Get("/hello", func(ctx iris.Context) {
 		// 抛出异常，测试 OnAnyErrorCode
-		panic("hello 出错了")
+		//panic("hello 出错了")
 		ctx.WriteString("hello world! iris")
 	})
 
@@ -48,6 +47,7 @@ func main() {
 		context.WriteString("访问路径不存在。")
 	})
 
-	err := app.Run(iris.Addr(":8082"))
-	fmt.Println(err)
+	go app.Run(iris.Addr(":8082"))
+	//err := app.Run(iris.Addr(":8082"))
+	//fmt.Println(err)
 }

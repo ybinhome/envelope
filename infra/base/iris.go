@@ -13,6 +13,7 @@ var irisApplication *iris.Application
 
 // iris applicaiton 的暴漏函数
 func Iris() *iris.Application {
+	Check(irisApplication)
 	return irisApplication
 }
 

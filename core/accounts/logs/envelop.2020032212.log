@@ -1,0 +1,21 @@
+[38;5;37m[2020-03-22.13:20:13.828759 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:20:13.830232 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:20:13.830264 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:20:13.830303 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:20:13.830323 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:20:13.830481 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:20:13.830560 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:20:13.830588 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.13:20:13.840737 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:20:13.840800 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:20:20.796823 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:20:20.797225 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:20:20.797245 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:20:20.797273 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:20:20.797287 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:20:20.797410 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:20:20.797472 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:20:20.797492 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.13:20:20.806388 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:20:20.806433 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:20:20.861518 ][0m [31mERROR[0m 余额不足

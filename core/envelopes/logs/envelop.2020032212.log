@@ -1,0 +1,379 @@
+[38;5;37m[2020-03-22.12:04:05.071079 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:04:05.071717 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:04:05.071745 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:04:05.071781 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:04:05.071801 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:04:05.071968 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:04:05.072047 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:04:05.072073 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:04:05.084455 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:04:05.084533 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:09:52.967056 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:09:52.967836 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:09:52.967873 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:09:52.967919 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:09:52.967945 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:09:52.968130 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:09:52.968220 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:09:52.968252 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:09:52.976646 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:09:52.976733 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:10:55.829196 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:10:55.829698 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:10:55.829733 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:10:55.829781 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:10:55.829807 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:10:55.830008 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:10:55.830107 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:10:55.830140 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:10:55.839184 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:10:55.839261 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:11:56.287359 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:11:56.288198 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:11:56.288261 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:11:56.288311 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:11:56.288337 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:11:56.288526 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:11:56.288624 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:11:56.288661 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&parseTime=true&charset=utf8&
+[38;5;37m[2020-03-22.12:11:56.297080 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:11:56.297134 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:12:12.416189 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:12:12.416984 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:12:12.417021 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:12:12.417067 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:12:12.417093 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:12:12.417275 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:12:12.417361 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:12:12.417391 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:12:12.427103 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:12:12.427168 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:15:24.734715 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:15:24.735709 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:15:24.735773 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:15:24.735823 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:15:24.735853 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:15:24.736048 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:15:24.736143 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:15:24.736174 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:15:24.745396 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:15:24.745472 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:18:39.279860 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:18:39.280375 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:18:39.280399 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:18:39.280431 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:18:39.280450 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:18:39.280595 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:18:39.280665 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:18:39.280687 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.12:18:39.292030 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:18:39.292095 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:20:59.755248 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:20:59.755727 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:20:59.755758 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:20:59.755800 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:20:59.755825 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:20:59.756004 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:20:59.756094 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:20:59.756132 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.12:20:59.764586 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:20:59.764651 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:22:56.634429 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:22:56.634872 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:22:56.634903 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:22:56.634945 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:22:56.634970 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:22:56.635149 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:22:56.635239 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:22:56.635271 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:22:56.644289 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:22:56.644360 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:26:35.550260 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:26:35.550710 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:26:35.550741 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:26:35.550782 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:26:35.550807 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:26:35.550982 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:26:35.551069 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:26:35.551099 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.12:26:35.560988 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:26:35.561066 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:36:28.401763 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:36:28.402200 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:36:28.402232 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:36:28.402274 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:36:28.402298 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:36:28.402482 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:36:28.402572 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:36:28.402603 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.12:36:28.412649 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:36:28.412725 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:39:05.882319 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:39:05.882768 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:39:05.882799 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:39:05.882841 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:39:05.882880 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:39:05.883059 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:39:05.883142 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:39:05.883169 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:39:05.891822 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:39:05.891921 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:42:39.440392 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:42:39.440852 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:42:39.440883 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:42:39.440926 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:42:39.440950 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:42:39.441126 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:42:39.441214 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:42:39.441244 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:42:39.451152 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:42:39.451223 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:42:39.593948 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:43:19.439858 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:43:19.440743 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:43:19.440791 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:43:19.440836 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:43:19.440860 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:43:19.441054 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:43:19.441147 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:43:19.441177 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.12:43:19.450012 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:43:19.450094 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:43:19.581150 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:43:47.989654 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:43:47.990099 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:43:47.990130 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:43:47.990176 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:43:47.990201 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:43:47.990384 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:43:47.990471 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:43:47.990501 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.12:43:47.999848 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:43:47.999908 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:43:50.309747 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:43:55.166338 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:43:55.166817 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:43:55.166847 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:43:55.166890 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:43:55.166915 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:43:55.167097 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:43:55.167183 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:43:55.167212 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:43:55.176423 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:43:55.176491 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:44:09.572310 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:44:16.351053 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:44:16.351558 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:44:16.351594 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:44:16.351642 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:44:16.351674 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:44:16.351884 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:44:16.351989 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:44:16.352025 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:44:16.360966 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:44:16.361038 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:44:55.923977 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:44:55.924431 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:44:55.924462 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:44:55.924504 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:44:55.924528 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:44:55.924706 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:44:55.924791 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:44:55.924821 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:44:55.935552 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:44:55.935687 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:44:56.969221 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:48:32.154473 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:48:32.155370 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:48:32.155413 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:48:32.155469 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:48:32.155499 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:48:32.155719 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:48:32.155819 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:48:32.155876 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.12:48:32.164405 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:48:32.164482 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:50:29.900318 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:50:29.901260 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:50:29.901330 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:50:29.901381 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:50:29.901406 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:50:29.901596 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:50:29.901690 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:50:29.901720 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.12:50:29.911442 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:50:29.911520 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:50:30.043664 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:56:09.269889 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:56:09.270804 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:56:09.270843 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:56:09.270884 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:56:09.270903 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:56:09.271066 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:56:09.271140 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:56:09.271165 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.12:56:09.282421 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:56:09.282485 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:56:09.432442 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:57:13.478195 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:57:13.478648 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:57:13.478670 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:57:13.478699 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:57:13.478714 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:57:13.478846 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:57:13.478907 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:57:13.478928 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.12:57:13.490800 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:57:13.490890 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:57:13.625795 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:59:24.778815 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:59:24.779331 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:59:24.779383 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:59:24.779431 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:59:24.779457 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:59:24.779660 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:59:24.779757 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:59:24.779789 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.12:59:24.788820 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:59:24.788901 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.12:59:27.538531 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.12:59:39.883017 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.12:59:39.883509 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.12:59:39.883541 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.12:59:39.883585 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.12:59:39.883610 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.12:59:39.883789 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.12:59:39.883876 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.12:59:39.883906 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.12:59:39.892200 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.12:59:39.892273 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:00:25.914868 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:01:17.060722 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:01:17.061167 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:01:17.061197 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:01:17.061239 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:01:17.061263 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:01:17.061439 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:01:17.061527 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:01:17.061556 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.13:01:17.070291 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:01:17.070358 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:03:16.784497 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:05:44.378850 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:05:44.379928 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:05:44.379974 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:05:44.380028 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:05:44.380058 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:05:44.380283 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:05:44.380390 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:05:44.380445 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.13:05:44.389523 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:05:44.389598 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:07:06.301448 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:07:06.301887 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:07:06.301925 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:07:06.302011 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:07:06.302037 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:07:06.302220 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:07:06.302310 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:07:06.302341 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.13:07:06.311759 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:07:06.311835 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:19:35.542530 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:19:35.543912 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:19:35.543945 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:19:35.543984 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:19:35.544003 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:19:35.544162 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:19:35.544235 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:19:35.544259 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.13:19:35.557032 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:19:35.557098 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:19:35.595937 ][0m [31mERROR[0m 余额不足
+[38;5;37m[2020-03-22.13:19:35.600020 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:19:35.602306 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:19:56.866342 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:19:56.866773 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:19:56.866794 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:19:56.866820 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:19:56.866835 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:19:56.866961 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:19:56.867019 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:19:56.867038 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.13:19:56.875395 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:19:56.875451 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:19:57.009609 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:20:36.004899 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:20:36.005525 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:20:36.005560 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:20:36.005588 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:20:36.005600 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:20:36.005726 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:20:36.005783 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:20:36.005800 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&parseTime=true&charset=utf8&
+[38;5;37m[2020-03-22.13:20:36.016039 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:20:36.016090 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:20:36.051277 ][0m [31mERROR[0m 余额不足
+[38;5;37m[2020-03-22.13:20:36.055288 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:20:36.057417 ][0m [31mERROR[0m 账户出错
+[38;5;37m[2020-03-22.13:22:17.217986 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:22:17.218730 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:22:17.218764 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:22:17.218803 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:22:17.218825 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:22:17.218990 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:22:17.219068 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:22:17.219094 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.13:22:17.229303 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:22:17.229369 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:22:17.267316 ][0m [31mERROR[0m 余额不足
+[38;5;37m[2020-03-22.13:22:25.304537 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:22:25.305309 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:22:25.305345 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:22:25.305385 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:22:25.305405 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:22:25.305574 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:22:25.305652 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:22:25.305678 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.13:22:25.316306 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:22:25.316409 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:23:54.848008 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:23:54.849252 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:23:54.849295 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:23:54.849348 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:23:54.849377 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:23:54.849592 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:23:54.849694 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:23:54.849751 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.13:23:54.858860 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:23:54.858939 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:25:38.473357 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:25:38.473801 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:25:38.473832 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:25:38.473876 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:25:38.473900 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:25:38.474085 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:25:38.474173 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:25:38.474207 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&charset=utf8&loc=Local&
+[38;5;37m[2020-03-22.13:25:38.483572 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:25:38.483632 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.13:30:50.644071 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.13:30:50.645024 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.13:30:50.645078 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.13:30:50.645120 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.13:30:50.645140 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.13:30:50.645314 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.13:30:50.645395 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.13:30:50.645421 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&loc=Local&parseTime=true&
+[38;5;37m[2020-03-22.13:30:50.654769 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.13:30:50.654900 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.15:45:30.725762 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.15:45:30.727005 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.15:45:30.727068 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.15:45:30.727120 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.15:45:30.727146 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.15:45:30.727342 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.15:45:30.727434 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.15:45:30.727465 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.15:45:30.736704 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.15:45:30.736779 ][0m [32m INFO[0m Starting starters...

@@ -1,0 +1,76 @@
+[38;5;37m[2020-03-22.11:30:10.004571 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:30:10.005150 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:30:10.005180 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:30:10.005216 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:30:10.005234 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:30:10.005391 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:30:10.005464 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:30:10.005489 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.11:30:10.016223 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:30:10.016292 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:30:10.137836 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:34:59.965193 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:34:59.965725 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:34:59.965798 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:34:59.965859 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:34:59.965919 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:34:59.966111 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:34:59.966202 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:34:59.966232 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.11:34:59.974473 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:34:59.974539 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:35:00.085171 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:40:01.414620 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:40:01.415050 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:40:01.415081 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:40:01.415123 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:40:01.415148 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:40:01.415324 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:40:01.415410 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:40:01.415439 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?parseTime=true&loc=Local&charset=utf8&
+[38;5;37m[2020-03-22.11:40:01.423533 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:40:01.423595 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:40:01.522643 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:40:31.763979 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:40:31.764421 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:40:31.764452 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:40:31.764495 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:40:31.764520 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:40:31.764694 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:40:31.764786 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:40:31.764814 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.11:40:31.773513 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:40:31.773582 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:41:31.838767 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:41:50.098649 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:41:50.099072 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:41:50.099102 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:41:50.099143 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:41:50.099167 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:41:50.099347 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:41:50.099431 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:41:50.099462 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.11:41:50.109028 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:41:50.109095 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:42:06.995026 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:42:35.213218 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:42:35.213636 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:42:35.213667 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:42:35.213710 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:42:35.213735 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:42:35.213910 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:42:35.213999 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:42:35.214030 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?loc=Local&charset=utf8&parseTime=true&
+[38;5;37m[2020-03-22.11:42:35.223356 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:42:35.223429 ][0m [32m INFO[0m Starting starters...
+[38;5;37m[2020-03-22.11:43:41.999131 ][0m [31mERROR[0m Error 1054: Unknown column 'origin_envelope_no' in 'field list'
+[38;5;37m[2020-03-22.11:48:36.009971 ][0m [32m INFO[0m Initializing starters...
+[38;5;37m[2020-03-22.11:48:36.010424 ][0m [34mDEBUG[0m Initializing: type=%s*base.PropsStarter
+[38;5;37m[2020-03-22.11:48:36.010455 ][0m [32m INFO[0m 初始化配置
+[38;5;37m[2020-03-22.11:48:36.010499 ][0m [34mDEBUG[0m Initializing: type=%s*base.DbxDatabaseStarter
+[38;5;37m[2020-03-22.11:48:36.010523 ][0m [34mDEBUG[0m Initializing: type=%s*base.ValidatorStarter
+[38;5;37m[2020-03-22.11:48:36.010702 ][0m [32m INFO[0m Setup starters...
+[38;5;37m[2020-03-22.11:48:36.010797 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[charset:utf8 loc:Local parseTime:true] ConnMaxLifetime:0s MaxOpenConns:3 MaxIdleConns:1 LoggingEnabled:false}
+[38;5;37m[2020-03-22.11:48:36.010827 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?charset=utf8&parseTime=true&loc=Local&
+[38;5;37m[2020-03-22.11:48:36.020137 ][0m [32m INFO[0m <nil>
+[38;5;37m[2020-03-22.11:48:36.020207 ][0m [32m INFO[0m Starting starters...

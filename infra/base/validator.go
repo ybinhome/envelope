@@ -13,10 +13,12 @@ var validate *validator.Validate
 var translator ut.Translator
 
 func Validate() *validator.Validate {
+	Check(validate)
 	return validate
 }
 
 func Translator() ut.Translator {
+	Check(validate)
 	return translator
 }
 
@@ -26,7 +28,7 @@ type ValidatorStarter struct {
 
 func (v *ValidatorStarter) Init(ctx infra.StarterContext) {
 	// 实例化 validate 对象
-	validate := validator.New()
+	validate = validator.New()
 
 	// 创建 validate 消息输出中文翻译器
 	//   通过 locales 的中文包创建中文翻译器
@@ -44,4 +46,28 @@ func (v *ValidatorStarter) Init(ctx infra.StarterContext) {
 	} else {
 		logrus.Errorf("Not found translator: zh")
 	}
+}
+
+// 验证输入参数是否合法
+func ValidateStruct(s interface{}) (err error) {
+	err = Validate().Struct(s)
+	if err != nil {
+		// 使用类型断言来判断 err 的类型，如果是 *validator.InvalidValidationError 类型，则传入的参数 &dto 为空，将自定义的错误信息和 err 输出到日志
+		_, ok := err.(*validator.InvalidValidationError)
+		if ok {
+			logrus.Error("验证错误", err)
+		}
+
+		// 使用类型断言来判断 err 的类型，如果是 validator.ValidationErrors 类型，则传入的参数 &dto 中字段有误，同时使用循环来便利 errs 切片，通过转换器中文输出那些字段有问题到日志
+		errs, ok := err.(validator.ValidationErrors)
+		if ok {
+			for _, e := range errs {
+				logrus.Error(e.Translate(Translator()))
+			}
+		}
+
+		// 最后向用户范围一个空的 *services.AccountDTO 和错误信息
+		return err
+	}
+	return nil
 }

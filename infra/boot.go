@@ -1,6 +1,10 @@
 package infra
 
-import "github.com/tietang/props/kvs"
+import (
+	log "github.com/sirupsen/logrus"
+	"github.com/tietang/props/kvs"
+	"reflect"
+)
 
 // 应用程序启动管理器
 type BootApplication struct {
@@ -28,18 +32,23 @@ func (b *BootApplication) Start() {
 }
 
 func (b *BootApplication) init() {
+	log.Info("Initializing starters...")
 	for _, starter := range StarterRegister.AllStarters() {
+		v := reflect.TypeOf(starter)
+		log.Debug("Initializing: type=%s", v.String())
 		starter.Init(b.starterContext)
 	}
 }
 
 func (b *BootApplication) setup() {
+	log.Info("Setup starters...")
 	for _, starter := range StarterRegister.AllStarters() {
 		starter.Setup(b.starterContext)
 	}
 }
 
 func (b *BootApplication) start() {
+	log.Info("Starting starters...")
 	for i, starter := range StarterRegister.AllStarters() {
 		if starter.StartBlocking() {
 			// 如果可阻塞的 starter 是最后一个 starter，直接启动并阻塞

@@ -1,3 +1,0 @@
-[38;5;37m[2020-03-14.01:21:46.581267 ][0m [32m INFO[0m {DriverName:mysql User:po Password:111111 Database:po Host:localhost:3306 Options:map[] ConnMaxLifetime:0s MaxOpenConns:5 MaxIdleConns:2 LoggingEnabled:false}
-[38;5;37m[2020-03-14.01:21:46.582091 ][0m [32m INFO[0m mysql.conn url: po:***@tcp(localhost:3306)/po?
-[38;5;37m[2020-03-14.01:21:46.591842 ][0m [32m INFO[0m <nil>

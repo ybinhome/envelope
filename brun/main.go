@@ -16,8 +16,4 @@ func main() {
 	app := infra.New(config)
 	// 启动应用程序
 	app.Start()
-
-	// 临时阻塞进程
-	//c := make(chan int)
-	//<-c
 }

@@ -42,27 +42,48 @@ type BaseStarter struct {
 }
 
 // 基础空启动器实现 - 方法实现
-func (b *BaseStarter) Init(ctx StarterContext)  {}
-func (b *BaseStarter) Setup(ctx StarterContext) {}
-func (b *BaseStarter) Start(ctx StarterContext) {}
-func (b *BaseStarter) Stop(ctx StarterContext)  {}
-func (b *BaseStarter) StartBlocking() bool      { return false }
+func (b *BaseStarter) Init(ctx StarterContext)      {}
+func (b *BaseStarter) Setup(ctx StarterContext)     {}
+func (b *BaseStarter) Start(ctx StarterContext)     {}
+func (b *BaseStarter) Stop(ctx StarterContext)      {}
+func (b *BaseStarter) StartBlocking() bool          { return false }
+func (b *BaseStarter) PriorityGroup() PriorityGroup { return BasicResourcesGroup }
+func (b *BaseStarter) Priority() int                { return DEFAULT_PRIORITY }
+
+type PriorityGroup int
+
+const (
+	SystemGroup         PriorityGroup = 30
+	BasicResourcesGroup PriorityGroup = 20
+	AppGroup            PriorityGroup = 10
+
+	INT_MAX          = int(^uint(0) >> 1)
+	DEFAULT_PRIORITY = 10000
+)
 
 // 上面定义了基础资源的生命周期，还需要一个注册器，将所有基础资源管理起来
 
 // 启动注册器 - 结构器 (全局仅需要一个注册器，因此首字母小写即可，无需导出)
 type starterRegister struct {
-	starters []Starter
+	nonBlockingStarters []Starter
+	blockingStarters    []Starter
 }
 
 // 启动注册器 - 注册方法实现
-func (r *starterRegister) Register(s Starter) {
-	r.starters = append(r.starters, s)
+func (r *starterRegister) Register(starter Starter) {
+	if starter.StartBlocking() {
+		r.blockingStarters = append(r.blockingStarters, starter)
+	} else {
+		r.nonBlockingStarters = append(r.nonBlockingStarters, starter)
+	}
 }
 
 // 启动注册器 - 返回所有基础资源实现
 func (r *starterRegister) AllStarters() []Starter {
-	return r.starters
+	starters := make([]Starter, 0)
+	starters = append(starters, r.nonBlockingStarters...)
+	starters = append(starters, r.blockingStarters...)
+	return starters
 }
 
 var StarterRegister *starterRegister = new(starterRegister)
