@@ -1,3 +1,3 @@
-# envelop 学习项目
+# envelop project
 
-更新项目
+This is a project that simulates the process of grabbing real red envelopes
